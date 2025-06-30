@@ -1,0 +1,25 @@
+[project]
+name = "enhanced-automation-framework"
+version = "0.1.0"
+description = "Enhanced Multi-Language Test Automation Framework using Behave"
+authors = [
+    { name = "Test Engineer", email = "test@example.com" }
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "behave>=1.2.6,<2.0.0",
+    "webdriver-manager>=4.0.2,<5.0.0",
+    "splinter>=0.21.0,<0.22.0",
+    "typing-extensions>=4.13.2,<5.0.0",
+    "faker>=37.1.0,<38.0.0",
+    "allure-behave>=2.14.0,<3.0.0",
+    "behave-html-formatter>=0.9.10,<0.10.0",
+    "pydantic-settings>=2.9.1,<3.0.0",
+    "selenium>=4.33.0,<5.0.0",
+    "assertpy>=1.1,<2.0"
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
